@@ -1,0 +1,54 @@
+body
+{
+	background: #33313b;
+}
+#navigationbar_right
+{
+	list-style-type: none;
+	background: #676487;
+	height: 700px;
+	width: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+    
+}
+ul li
+{
+	list-style: none;
+	margin-top: 25px;
+	font-size: 12px;
+	left: 0;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav_settings
+{
+	color: #42ebf4;
+}
+#nav_gists
+{
+	color: #41f462;
+}
+#nav_stackoverflow
+{
+	color: #FFA400;
+}
+#nav_trending
+{
+	color: #F62459;
+}
+#nav_scratchpad
+{
+	color: #BE90D4;
+}
+#nav_playground
+{
+	color: #ECF0F1;
+}
+#nav_helpslashintro
+{
+	color: #F7CA18;
+}
