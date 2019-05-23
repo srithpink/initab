@@ -1,32 +1,30 @@
 body
 {
-	background: #33313b;
+	background: #484e5b;
 }
-#navigationbar_right
+.row
 {
 	list-style-type: none;
-	background: #676487;
-	height: 700px;
-	width: 150px;
+	/*background: #484e5b;
+	height: 900px;
+	width: 180px;*/
 	position: fixed;
 	top: 0;
-	left: 0;
-    
-}
-ul li
+	left: 0;	 
+	display: flex;
+
+} 
+#nav_settings, #nav_gists, #nav_stackoverflow, #nav_trending, #nav_scratchpad, #nav_playground, #nav_helpslashintro, #bottom_logo
 {
 	list-style: none;
-	margin-top: 25px;
-	font-size: 12px;
-	left: 0;
-    display: block;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+	margin-top: 35px;
+	
+	font-size: 12px;	
 }
 #nav_settings
 {
 	color: #42ebf4;
+
 }
 #nav_gists
 {
@@ -38,7 +36,7 @@ ul li
 }
 #nav_trending
 {
-	color: #F62459;
+	color: #f441d0;
 }
 #nav_scratchpad
 {
@@ -52,3 +50,116 @@ ul li
 {
 	color: #F7CA18;
 }
+i
+{
+	
+	
+	border-style: solid;
+	border-radius: 2px;
+	font-size: 18px;
+	margin-left: 9px;
+	margin-top: 25px;
+ }
+ #settings_icon
+ {
+    background: #42ebf4;
+    border-color: #42ebf4;
+    border-width: 5px;
+    
+ }
+ #gists_icon
+ {
+     background: #41f462;
+    border-color: #41f462;
+    border-width: 4px;
+    
+ }
+ #stackoverflow_icon
+ {
+    background: #FFA400;
+    border-color: #FFA400;
+    border-right-width: 9px;
+    border-bottom-width: 5.7px;
+ }
+ #trending_icon
+ {
+    background: #f441d0;
+    border-color: #f441d0;
+    border-right-width: 7.3px;
+    border-bottom-width: 5.9px;
+    }
+ #scratchpad_icon
+ {
+    border-color: #BE90D4;
+    background: #BE90D4;
+    border-right-width: 7.3px;
+    border-bottom-width: 5.9px;
+    border-left-width: 5px;
+    
+ }
+ #playground_icon
+ {
+    background: #ECF0F1;
+    border-color: #ECF0F1;
+    /*font-size: 18px;*/
+    height: 20px;
+    border-top-width: 4px;
+    font-size: 19px;
+    border-right-width: 6.5px;
+    border-left-width: 5px;
+  }
+ #help_icon
+ {
+    background: #F7CA18;;
+    border-color: #F7CA18;
+    border-right-width: 7px;
+    border-left-width: 7px;
+    font-size: 18px;
+ }
+ 
+  .column
+ {
+ 	margin-left: 10px;
+ }
+ #bottom_logo
+ {
+ 	margin-top: 670px;
+ 	padding-right: 300px;
+ 	display: block;
+
+ }
+ img:hover
+ {
+ 	color: yellow;
+ }
+ #restbackground
+ {
+ 	background: #262a33;
+ 	position: fixed;
+	top: 0;
+	left: 0;
+	float: right;
+	height: 800px;
+	width: 1500px;
+	margin-left: 180px;
+ }
+ #linkedin,#github
+ {
+ 	border-radius: 50%;
+ 	padding: 3px;
+ 	font-size: 15px;
+   
+ }
+ 
+ #linkedin
+ {
+ 	color: white;
+ 	background: #418ff4;
+ 	border-color: #418ff4;
+ 	 margin-left: 40px;
+ }
+ #github
+ {
+ 	border-color: black;
+ 	color: black;
+ }
